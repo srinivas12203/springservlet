@@ -144,6 +144,7 @@ public class AdminController {
 		System.out.println(emplist);
 		return "AdminapprovedInternal";
 		}
+	//Admin rejection panel
 	@RequestMapping("/adminrejectInternal")
 	public String displayCandidates1Internal(Employee employee,Model model)
 	{
