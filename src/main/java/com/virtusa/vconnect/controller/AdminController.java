@@ -52,7 +52,7 @@ public class AdminController {
 			return "AdminPage";
 				
 		}
-	//
+
 		//manage External applicants for admin
 		@RequestMapping("/ManageApplicants")
 	 public ModelAndView viewcandidate(@ModelAttribute("candidate") Candidate candidate1,Model model) {
